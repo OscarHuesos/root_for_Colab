@@ -1,0 +1,103 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for setresuid
+-- Looking for setresuid - found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for fstatat
+-- Looking for fstatat - found
+-- Looking for sigwaitinfo
+-- Looking for sigwaitinfo - found
+-- Looking for shadow.h
+-- Looking for shadow.h - found
+-- Looking for getifaddrs
+-- Looking for getifaddrs - found
+-- Looking for getnameinfo
+-- Looking for getnameinfo - found
+-- Looking for getprotobyname_r
+-- Looking for getprotobyname_r - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for sendfile
+-- Looking for sendfile - found
+-- Looking for crypt
+-- Looking for crypt - not found
+-- Looking for crypt in crypt
+-- Looking for crypt in crypt - found
+-- Looking for et/com_err.h
+-- Looking for et/com_err.h - not found
+-- Performing Test HAVE_ATOMICS
+-- Performing Test HAVE_ATOMICS - Success
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Performing Test READLINE_OK
+-- Performing Test READLINE_OK - Success
+-- Found READLINE: /usr/lib/x86_64-linux-gnu/libreadline.so  
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.4") 
+-- Could NOT find systemd (missing: SYSTEMD_INCLUDE_DIRS SYSTEMD_LIBRARIES) 
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so  
+-- Looking for TLS_method
+-- Looking for TLS_method - found
+-- Looking for TLS_method
+-- Looking for TLS_method - found
+-- Looking for TLSv1_2_method
+-- Looking for TLSv1_2_method - found
+-- Looking for TLSv1_2_method
+-- Looking for TLSv1_2_method - found
+-- Looking for TLSv1_1_method
+-- Looking for TLSv1_1_method - found
+-- Looking for TLSv1_1_method
+-- Looking for TLSv1_1_method - found
+-- Looking for TLSv1_method
+-- Looking for TLSv1_method - found
+-- Looking for TLSv1_method
+-- Looking for TLSv1_method - found
+-- Looking for DH_compute_key_padded
+-- Looking for DH_compute_key_padded - found
+-- Looking for DH_compute_key_padded
+-- Looking for DH_compute_key_padded - found
+-- Could NOT find KERBEROS5 (missing: KERBEROS5_LIBRARIES KERBEROS5_INCLUDE_DIR) 
+-- Could NOT find fuse (missing: FUSE_INCLUDE_DIR FUSE_LIBRARY) 
+-- Looking for curl_multi_wait
+-- Looking for curl_multi_wait - found
+-- Could NOT find Macaroons (missing: MACAROONS_INCLUDES MACAROONS_LIB) 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'json-c'
+--   No package 'json-c' found
+-- Checking for module 'uuid'
+--   Found uuid, version 2.31.1
+-- Performing Test CURL_PIPELINING
+-- Performing Test CURL_PIPELINING - Success
+-- ----------------------------------------
+-- Installation path: /content/root_src/root_build
+-- C Compiler:        /usr/bin/cc
+-- C++ Compiler:      /usr/bin/c++
+-- Build type:        RelWithDebInfo
+-- Plug-in version:   4
+-- 
+-- Readline support:  yes
+-- Fuse support:      disabled
+-- Crypto support:    yes
+-- Kerberos5 support: disabled
+-- XrdCl:             yes
+-- Tests:             disabled
+-- HTTP support:      yes
+-- HTTP TPC support:  yes
+-- Macaroons support: disabled
+-- Python support:    disabled
+-- ----------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build

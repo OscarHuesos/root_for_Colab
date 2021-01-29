@@ -1,0 +1,13 @@
+# Target labels
+ XROOTD
+# Source files and their labels
+/content/root_src/root_build/CMakeFiles/XROOTD
+/content/root_src/root_build/CMakeFiles/XROOTD.rule
+/content/root_src/root_build/CMakeFiles/XROOTD-complete.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-install.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-mkdir.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-download.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-update.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-patch.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-configure.rule
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-stamp/XROOTD-build.rule

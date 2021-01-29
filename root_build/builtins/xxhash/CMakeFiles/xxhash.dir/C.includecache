@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/content/root_src/builtins/xxhash/xxhash.c
+stdlib.h
+-
+string.h
+-
+xxhash.h
+/content/root_src/builtins/xxhash/xxhash.h
+stdint.h
+-
+stdint.h
+-
+
+/content/root_src/builtins/xxhash/xxhash.h
+stddef.h
+-
+

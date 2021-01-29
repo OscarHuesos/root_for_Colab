@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/base/inc/ROOT/RConfig.hxx
+../RVersion.h
+../core/base/inc/RVersion.h
+RConfigure.h
+../core/base/inc/ROOT/RConfigure.h
+stdlib.h
+-
+features.h
+-
+AvailabilityMacros.h
+-
+TargetConditionals.h
+-
+
+../core/base/inc/RVersion.h
+
+/content/root_src/core/clib/src/strlcpy.c
+ROOT/RConfig.hxx
+-
+unistd.h
+-
+sys/types.h
+-
+string.h
+-
+
+ginclude/RConfigure.h
+

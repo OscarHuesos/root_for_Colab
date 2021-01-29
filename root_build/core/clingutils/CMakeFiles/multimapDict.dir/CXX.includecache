@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/content/root_src/root_build/core/clingutils/dummy.cxx
+

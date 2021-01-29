@@ -1,0 +1,10 @@
+/content/root_src/root_install/include/clad/Differentiator/StmtClone.h
+/content/root_src/root_install/include/clad/Differentiator/Compatibility.h
+/content/root_src/root_install/include/clad/Differentiator/Tape.h
+/content/root_src/root_install/include/clad/Differentiator/DiffPlanner.h
+/content/root_src/root_install/include/clad/Differentiator/BuiltinDerivatives.h
+/content/root_src/root_install/include/clad/Differentiator/DerivativeBuilder.h
+/content/root_src/root_install/include/clad/Differentiator/Differentiator.h
+/content/root_src/root_install/include/clad/Differentiator/Version.h
+/content/root_src/root_install/lib/libcladDifferentiator.a
+/content/root_src/root_install/lib/libcladPlugin.a

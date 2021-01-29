@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Winline -Ofast  -std=c++11     -W -Wall -Werror -Wno-error=unused-parameter   -O3 -DNDEBUG  -shared -Wl,-soname,libvdt.so -o libvdt.so CMakeFiles/vdt.dir/__/src/vdtMath_signatures.cc.o 

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found supported version: LLVM 5.0.0
+-- Using LLVMConfig.cmake in: /content/root_src/root_build/interpreter/llvm/src/lib/cmake/llvm
+-- Found supported version: Clang 5.0.0
+-- Using ClangConfig.cmake in: /content/root_src/root_build/interpreter/llvm/src/tools/clang/lib/cmake/clang
+-- Linker detection: GNU ld
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test C_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME
+-- Performing Test CXX_SUPPORTS_WERROR_DATE_TIME - Success
+-- Performing Test CXX_SUPPORTS_CXX11
+-- Performing Test CXX_SUPPORTS_CXX11 - Success
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /content/root_src/root_build/interpreter/llvm/src/tools/cling/tools/plugins/clad/clad-prefix/src/clad-build

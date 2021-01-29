@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../graf3d/g3d/inc/X3DBuffer.h
+
+/content/root_src/graf3d/x3d/src/X3DDefs.h
+
+/content/root_src/graf3d/x3d/src/x3d.c
+x3d.h
+/content/root_src/graf3d/x3d/src/x3d.h
+X3DBuffer.h
+/content/root_src/graf3d/x3d/src/X3DBuffer.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+stdlib.h
+-
+X11/Xlib.h
+-
+X11/Xatom.h
+-
+X11/Xutil.h
+-
+X11/X.h
+-
+
+/content/root_src/graf3d/x3d/src/x3d.h
+X3DDefs.h
+/content/root_src/graf3d/x3d/src/X3DDefs.h
+X11/Xlib.h
+-
+

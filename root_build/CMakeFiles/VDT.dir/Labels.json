@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/VDT"
+		},
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/VDT.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/VDT-complete.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-install.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-mkdir.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-download.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-update.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-patch.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-configure.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-build.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-copy2externals.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"VDT"
+		],
+		"name" : "VDT"
+	}
+}

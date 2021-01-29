@@ -1,0 +1,4 @@
+Scanning dependencies of target vdt
+[ 50%] Building CXX object lib/CMakeFiles/vdt.dir/__/src/vdtMath_signatures.cc.o
+[100%] Linking CXX shared library libvdt.so
+[100%] Built target vdt

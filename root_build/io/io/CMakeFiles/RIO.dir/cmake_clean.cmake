@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/RIO.dir/src/RRawFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/RRawFileUnix.cxx.o"
+  "CMakeFiles/RIO.dir/src/TArchiveFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferText.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferIO.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferJSON.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferMerger.cxx.o"
+  "CMakeFiles/RIO.dir/src/TBufferMergerFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TCollectionProxyFactory.cxx.o"
+  "CMakeFiles/RIO.dir/src/TContainerConverters.cxx.o"
+  "CMakeFiles/RIO.dir/src/TEmulatedMapProxy.cxx.o"
+  "CMakeFiles/RIO.dir/src/TEmulatedCollectionProxy.cxx.o"
+  "CMakeFiles/RIO.dir/src/TDirectoryFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFileCacheRead.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFileMerger.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFree.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFileCacheWrite.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFilePrefetch.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TFPBlock.cxx.o"
+  "CMakeFiles/RIO.dir/src/TGenCollectionStreamer.cxx.o"
+  "CMakeFiles/RIO.dir/src/TGenCollectionProxy.cxx.o"
+  "CMakeFiles/RIO.dir/src/TKey.cxx.o"
+  "CMakeFiles/RIO.dir/src/TKeyMapFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TLockFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TMemFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TMapFile.cxx.o"
+  "CMakeFiles/RIO.dir/src/TMakeProject.cxx.o"
+  "CMakeFiles/RIO.dir/src/TStreamerInfo.cxx.o"
+  "CMakeFiles/RIO.dir/src/TStreamerInfoActions.cxx.o"
+  "CMakeFiles/RIO.dir/src/TStreamerInfoReadBuffer.cxx.o"
+  "CMakeFiles/RIO.dir/src/TStreamerInfoWriteBuffer.cxx.o"
+  "CMakeFiles/RIO.dir/src/TZIPFile.cxx.o"
+  "../../lib/libRIO.pdb"
+  "../../lib/libRIO.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/RIO.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

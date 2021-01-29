@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://lcgpackages.web.cern.ch/lcgpackages/tarFiles/sources/tbb-2019_U9.tar.gz'
+tag='SHA256=15652f5328cf00c576f065e5cd3eaf3317422fe82afb67a9bcec0dc065bd2abe'

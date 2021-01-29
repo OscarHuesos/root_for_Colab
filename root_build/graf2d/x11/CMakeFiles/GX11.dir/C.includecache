@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/content/root_src/graf2d/x11/src/gifdecode.c
+stdio.h
+-
+string.h
+-
+
+/content/root_src/graf2d/x11/src/gifencode.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/content/root_src/graf2d/x11/src/gifquantize.c
+stdio.h
+-
+stdlib.h
+-
+

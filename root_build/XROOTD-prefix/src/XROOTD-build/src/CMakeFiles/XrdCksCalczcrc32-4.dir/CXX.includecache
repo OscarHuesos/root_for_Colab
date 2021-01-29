@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/./XrdCks/XrdCksCalc.hh
+
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/./XrdSys/XrdSysError.hh
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+strings.h
+-
+string.h
+-
+
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/XrdCks/XrdCksCalczcrc32.cc
+XrdCks/XrdCksCalc.hh
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/XrdCks/XrdCks/XrdCksCalc.hh
+XrdSys/XrdSysError.hh
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/XrdCks/XrdSys/XrdSysError.hh
+XrdVersion.hh
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD/src/XrdCks/XrdVersion.hh
+stdint.h
+-
+zlib.h
+-
+
+src/XrdVersion.hh
+

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/TBB"
+		},
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/TBB.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/CMakeFiles/TBB-complete.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-install.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-mkdir.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-download.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-update.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-patch.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-configure.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-build.rule"
+		},
+		{
+			"file" : "/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-tbb2externals.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TBB"
+		],
+		"name" : "TBB"
+	}
+}

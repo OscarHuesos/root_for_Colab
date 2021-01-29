@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/base/inc/ROOT/RConfig.hxx
+../RVersion.h
+../core/base/inc/RVersion.h
+RConfigure.h
+../core/base/inc/ROOT/RConfigure.h
+stdlib.h
+-
+features.h
+-
+AvailabilityMacros.h
+-
+TargetConditionals.h
+-
+
+../core/base/inc/RVersion.h
+
+../core/dictgen/res/rootcling_impl.h
+string
+-
+
+/content/root_src/core/rootcling_stage1/src/rootcling_stage1.cxx
+rootcling_impl.h
+/content/root_src/core/rootcling_stage1/src/rootcling_impl.h
+RConfigure.h
+/content/root_src/core/rootcling_stage1/src/RConfigure.h
+ROOT/RConfig.hxx
+-
+stdlib.h
+-
+
+ginclude/RConfigure.h
+

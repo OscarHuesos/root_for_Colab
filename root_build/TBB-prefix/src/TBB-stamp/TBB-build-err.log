@@ -1,0 +1,3 @@
+build/common.inc:48: "Warning: deprecated cpp0x=1 is used, stdver must be used instead. Building in stdver=c++0x mode."
+../../build/Makefile.tbb:28: CONFIG: cfg=debug arch=intel64 compiler=gcc target=linux runtime=cc7.5.0_libc2.27_kernel4.19.112+
+../../build/Makefile.tbb:28: CONFIG: cfg=release arch=intel64 compiler=gcc target=linux runtime=cc7.5.0_libc2.27_kernel4.19.112+

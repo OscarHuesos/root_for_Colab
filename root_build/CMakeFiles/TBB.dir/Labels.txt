@@ -1,0 +1,14 @@
+# Target labels
+ TBB
+# Source files and their labels
+/content/root_src/root_build/CMakeFiles/TBB
+/content/root_src/root_build/CMakeFiles/TBB.rule
+/content/root_src/root_build/CMakeFiles/TBB-complete.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-install.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-mkdir.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-download.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-update.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-patch.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-configure.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-build.rule
+/content/root_src/root_build/TBB-prefix/src/TBB-stamp/TBB-tbb2externals.rule

@@ -1,0 +1,23 @@
+-- Downloading...
+   dst='/content/root_src/root_build/VDT-prefix/src/vdt-0.4.3.tar.gz'
+   timeout='none'
+-- Using src='http://lcgpackages.web.cern.ch/lcgpackages/tarFiles/sources/vdt-0.4.3.tar.gz'
+-- [download 12% complete]
+-- [download 24% complete]
+-- [download 50% complete]
+-- [download 53% complete]
+-- [download 80% complete]
+-- [download 86% complete]
+-- [download 91% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/content/root_src/root_build/VDT-prefix/src/vdt-0.4.3.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/content/root_src/root_build/VDT-prefix/src/vdt-0.4.3.tar.gz'
+     dst='/content/root_src/root_build/VDT-prefix/src/VDT'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

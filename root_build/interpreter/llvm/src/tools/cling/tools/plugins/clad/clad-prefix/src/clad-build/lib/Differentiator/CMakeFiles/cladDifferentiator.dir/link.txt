@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../libcladDifferentiator.a  CMakeFiles/cladDifferentiator.dir/ConstantFolder.cpp.o CMakeFiles/cladDifferentiator.dir/DerivativeBuilder.cpp.o CMakeFiles/cladDifferentiator.dir/DiffPlanner.cpp.o CMakeFiles/cladDifferentiator.dir/StmtClone.cpp.o CMakeFiles/cladDifferentiator.dir/Version.cpp.o
+/usr/bin/ranlib ../libcladDifferentiator.a

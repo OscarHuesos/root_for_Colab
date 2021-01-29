@@ -1,0 +1,14 @@
+[ 10%] Generating VCSVersion.inc
+Scanning dependencies of target cladDifferentiator
+[ 20%] Building CXX object lib/Differentiator/CMakeFiles/cladDifferentiator.dir/ConstantFolder.cpp.o
+[ 30%] Building CXX object lib/Differentiator/CMakeFiles/cladDifferentiator.dir/DerivativeBuilder.cpp.o
+[ 40%] Building CXX object lib/Differentiator/CMakeFiles/cladDifferentiator.dir/DiffPlanner.cpp.o
+[ 50%] Building CXX object lib/Differentiator/CMakeFiles/cladDifferentiator.dir/StmtClone.cpp.o
+[ 60%] Building CXX object lib/Differentiator/CMakeFiles/cladDifferentiator.dir/Version.cpp.o
+[ 70%] Linking CXX static library ../libcladDifferentiator.a
+[ 70%] Built target cladDifferentiator
+Scanning dependencies of target cladPlugin
+[ 80%] Building CXX object tools/CMakeFiles/cladPlugin.dir/ClangPlugin.cpp.o
+[ 90%] Building CXX object tools/CMakeFiles/cladPlugin.dir/RequiredSymbols.cpp.o
+[100%] Linking CXX static library ../lib/libcladPlugin.a
+[100%] Built target cladPlugin

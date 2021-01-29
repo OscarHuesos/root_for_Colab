@@ -1,0 +1,6 @@
+/usr/bin/install -c -m 755 libAfterImage.a /content/root_src/root_build/lib
+/bin/mkdir -p /content/root_src/root_build/include/libAfterImage
+installing libAfterImage headers using command - 
+    "/usr/bin/install -c -m 644 <header> /content/root_src/root_build/include/libAfterImage" :
+afterimage.h afterbase.h ascmap.h asfont.h asim_afterbase.h asimage.h asimagexml.h asstorage.h asvisual.h blender.h bmp.h char2uni.h draw.h export.h imencdec.h import.h pixmap.h scanline.h transform.h ungif.h xcf.h ximage.h xpm.h xwrap.h 
+Done.

@@ -1,0 +1,19 @@
+[100%] Built target vdt
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /content/root_src/root_build/include/vdt/asin.h
+-- Installing: /content/root_src/root_build/include/vdt/atan.h
+-- Installing: /content/root_src/root_build/include/vdt/tanh.h
+-- Installing: /content/root_src/root_build/include/vdt/atan2.h
+-- Installing: /content/root_src/root_build/include/vdt/cos.h
+-- Installing: /content/root_src/root_build/include/vdt/exp.h
+-- Installing: /content/root_src/root_build/include/vdt/identity.h
+-- Installing: /content/root_src/root_build/include/vdt/inv.h
+-- Installing: /content/root_src/root_build/include/vdt/log.h
+-- Installing: /content/root_src/root_build/include/vdt/sincos.h
+-- Installing: /content/root_src/root_build/include/vdt/sin.h
+-- Installing: /content/root_src/root_build/include/vdt/sqrt.h
+-- Installing: /content/root_src/root_build/include/vdt/tan.h
+-- Installing: /content/root_src/root_build/include/vdt/vdtcore_common.h
+-- Installing: /content/root_src/root_build/include/vdt/vdtMath.h
+-- Installing: /content/root_src/root_build/lib/libvdt.so

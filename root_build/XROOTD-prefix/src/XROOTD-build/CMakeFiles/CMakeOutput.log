@@ -1,0 +1,1195 @@
+The system is: Linux - 4.19.112+ - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-Wno-implicit-fallthrough;-pipe;-Wall;-W;-pthread
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/3.12.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: ;-std=c++11;-Wno-implicit-fallthrough;-Wno-noexcept-type;-pipe;;;;-fsigned-char;-pthread;-w
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_707d8/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_707d8.dir/build.make CMakeFiles/cmTC_707d8.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_707d8.dir/testCCompiler.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_707d8.dir/testCCompiler.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_707d8
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_707d8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_707d8.dir/testCCompiler.c.o  -o cmTC_707d8 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac9a5/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ac9a5.dir/build.make CMakeFiles/cmTC_ac9a5.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ac9a5
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9a5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -v -rdynamic CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o  -o cmTC_ac9a5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-Wimplicit-fallthrough=0' '-pipe' '-Wall' '-Wextra' '-pthread' '-v' '-rdynamic' '-o' 'cmTC_ac9a5' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsd9cQT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac9a5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-Wimplicit-fallthrough=0' '-pipe' '-Wall' '-Wextra' '-pthread' '-v' '-rdynamic' '-o' 'cmTC_ac9a5' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ac9a5/fast"]
+  ignore line: [make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ac9a5.dir/build.make CMakeFiles/cmTC_ac9a5.dir/build]
+  ignore line: [make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ac9a5]
+  ignore line: [/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9a5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -v -rdynamic CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o  -o cmTC_ac9a5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wimplicit-fallthrough=0' '-pipe' '-Wall' '-Wextra' '-pthread' '-v' '-rdynamic' '-o' 'cmTC_ac9a5' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsd9cQT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac9a5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsd9cQT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ac9a5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_ac9a5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3cdc/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3cdc.dir/build.make CMakeFiles/cmTC_c3cdc.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3cdc.dir/feature_tests.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -std=c11 -o CMakeFiles/cmTC_c3cdc.dir/feature_tests.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c3cdc
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cdc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_c3cdc.dir/feature_tests.c.o  -o cmTC_c3cdc 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcaea/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dcaea.dir/build.make CMakeFiles/cmTC_dcaea.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcaea.dir/feature_tests.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -std=c99 -o CMakeFiles/cmTC_dcaea.dir/feature_tests.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dcaea
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcaea.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_dcaea.dir/feature_tests.c.o  -o cmTC_dcaea 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e0d1/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e0d1.dir/build.make CMakeFiles/cmTC_7e0d1.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e0d1.dir/feature_tests.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -std=c90 -o CMakeFiles/cmTC_7e0d1.dir/feature_tests.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7e0d1
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e0d1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_7e0d1.dir/feature_tests.c.o  -o cmTC_7e0d1 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_431f3/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_431f3.dir/build.make CMakeFiles/cmTC_431f3.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_431f3.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -o CMakeFiles/cmTC_431f3.dir/testCXXCompiler.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_431f3
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_431f3.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w     -rdynamic CMakeFiles/cmTC_431f3.dir/testCXXCompiler.cxx.o  -o cmTC_431f3 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1556f/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1556f.dir/build.make CMakeFiles/cmTC_1556f.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -o CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_1556f
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1556f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -v -rdynamic CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1556f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-std=c++11' '-Wimplicit-fallthrough=0' '-Wno-noexcept-type' '-pipe' '-fsigned-char' '-pthread' '-w' '-v' '-rdynamic' '-o' 'cmTC_1556f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctU9rEA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1556f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-std=c++11' '-Wimplicit-fallthrough=0' '-Wno-noexcept-type' '-pipe' '-fsigned-char' '-pthread' '-w' '-v' '-rdynamic' '-o' 'cmTC_1556f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1556f/fast"]
+  ignore line: [make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1556f.dir/build.make CMakeFiles/cmTC_1556f.dir/build]
+  ignore line: [make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -o CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_1556f]
+  ignore line: [/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1556f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -v -rdynamic CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1556f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda/lib64/stubs/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-Wimplicit-fallthrough=0' '-Wno-noexcept-type' '-pipe' '-fsigned-char' '-pthread' '-w' '-v' '-rdynamic' '-o' 'cmTC_1556f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctU9rEA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1556f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda/lib64/stubs -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctU9rEA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1556f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_1556f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda/lib64/stubs] ==> [/usr/local/cuda/lib64/stubs]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/usr/local/cuda/lib64/stubs]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86787/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_86787.dir/build.make CMakeFiles/cmTC_86787.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86787.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -std=c++1z -o CMakeFiles/cmTC_86787.dir/feature_tests.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_86787
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86787.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w     -rdynamic CMakeFiles/cmTC_86787.dir/feature_tests.cxx.o  -o cmTC_86787 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecdde/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ecdde.dir/build.make CMakeFiles/cmTC_ecdde.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecdde.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -std=c++14 -o CMakeFiles/cmTC_ecdde.dir/feature_tests.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ecdde
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecdde.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w     -rdynamic CMakeFiles/cmTC_ecdde.dir/feature_tests.cxx.o  -o cmTC_ecdde 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8b23/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c8b23.dir/build.make CMakeFiles/cmTC_c8b23.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8b23.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -std=c++11 -o CMakeFiles/cmTC_c8b23.dir/feature_tests.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8b23
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8b23.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w     -rdynamic CMakeFiles/cmTC_c8b23.dir/feature_tests.cxx.o  -o cmTC_c8b23 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5735c/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5735c.dir/build.make CMakeFiles/cmTC_5735c.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5735c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w    -std=c++98 -o CMakeFiles/cmTC_5735c.dir/feature_tests.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5735c
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5735c.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w     -rdynamic CMakeFiles/cmTC_5735c.dir/feature_tests.cxx.o  -o cmTC_5735c 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function setresuid exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c716d/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c716d.dir/build.make CMakeFiles/cmTC_c716d.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c716d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setresuid   -o CMakeFiles/cmTC_c716d.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c716d
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c716d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=setresuid    -rdynamic CMakeFiles/cmTC_c716d.dir/CheckFunctionExists.c.o  -o cmTC_c716d 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fstatat exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20337/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_20337.dir/build.make CMakeFiles/cmTC_20337.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20337.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=fstatat   -o CMakeFiles/cmTC_20337.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20337
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20337.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=fstatat    -rdynamic CMakeFiles/cmTC_20337.dir/CheckFunctionExists.c.o  -o cmTC_20337 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigwaitinfo exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ab7c/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1ab7c.dir/build.make CMakeFiles/cmTC_1ab7c.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ab7c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=sigwaitinfo   -o CMakeFiles/cmTC_1ab7c.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ab7c
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab7c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=sigwaitinfo    -rdynamic CMakeFiles/cmTC_1ab7c.dir/CheckFunctionExists.c.o  -o cmTC_1ab7c 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file shadow.h exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d60f/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d60f.dir/build.make CMakeFiles/cmTC_9d60f.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d60f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_9d60f.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9d60f
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d60f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_9d60f.dir/CheckIncludeFile.c.o  -o cmTC_9d60f 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_044dd/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_044dd.dir/build.make CMakeFiles/cmTC_044dd.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_044dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTC_044dd.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_044dd
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044dd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getifaddrs    -rdynamic CMakeFiles/cmTC_044dd.dir/CheckFunctionExists.c.o  -o cmTC_044dd 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55d74/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_55d74.dir/build.make CMakeFiles/cmTC_55d74.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55d74.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getnameinfo   -o CMakeFiles/cmTC_55d74.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55d74
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55d74.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getnameinfo    -rdynamic CMakeFiles/cmTC_55d74.dir/CheckFunctionExists.c.o  -o cmTC_55d74 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getprotobyname_r exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2bc5/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e2bc5.dir/build.make CMakeFiles/cmTC_e2bc5.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2bc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getprotobyname_r   -o CMakeFiles/cmTC_e2bc5.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2bc5
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2bc5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=getprotobyname_r    -rdynamic CMakeFiles/cmTC_e2bc5.dir/CheckFunctionExists.c.o  -o cmTC_e2bc5 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyaddr_r exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eee22/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eee22.dir/build.make CMakeFiles/cmTC_eee22.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eee22.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r   -o CMakeFiles/cmTC_eee22.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eee22
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eee22.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r    -rdynamic CMakeFiles/cmTC_eee22.dir/CheckFunctionExists.c.o  -o cmTC_eee22 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87e99/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_87e99.dir/build.make CMakeFiles/cmTC_87e99.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87e99.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=sendfile   -o CMakeFiles/cmTC_87e99.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87e99
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87e99.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=sendfile    -rdynamic CMakeFiles/cmTC_87e99.dir/CheckFunctionExists.c.o  -o cmTC_87e99 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function crypt exists in the crypt passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a094/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5a094.dir/build.make CMakeFiles/cmTC_5a094.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a094.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTC_5a094.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a094
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a094.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=crypt    -rdynamic CMakeFiles/cmTC_5a094.dir/CheckFunctionExists.c.o  -o cmTC_5a094 -lcrypt 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_ATOMICS succeeded with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d115/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4d115.dir/build.make CMakeFiles/cmTC_4d115.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d115.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w -std=c++0x -DOPENSSL_NO_FILENAMES -std=c++0x -Wall -Wextra -Werror -Wno-unused-parameter -fno-omit-frame-pointer -Wno-error=misleading-indentation -DHAVE_ATOMICS   -o CMakeFiles/cmTC_4d115.dir/src.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4d115
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d115.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w -std=c++0x -DOPENSSL_NO_FILENAMES -std=c++0x -Wall -Wextra -Werror -Wno-unused-parameter -fno-omit-frame-pointer -Wno-error=misleading-indentation -DHAVE_ATOMICS    -rdynamic CMakeFiles/cmTC_4d115.dir/src.cxx.o  -o cmTC_4d115 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  int main()
+  {
+    unsigned long long val = 111, *mem = &val;
+
+    if (__sync_fetch_and_add(&val, 111) != 111 || val != 222) return 1;
+    if (__sync_add_and_fetch(&val, 111) != 333)               return 1;
+    if (__sync_sub_and_fetch(&val, 111) != 222)               return 1;
+    if (__sync_fetch_and_sub(&val, 111) != 222 || val != 111) return 1;
+
+    if (__sync_fetch_and_or (&val, 0)   != 111 || val != 111) return 1;
+    if (__sync_fetch_and_and(&val, 0)   != 111 || val != 0  ) return 1;
+
+    if (__sync_bool_compare_and_swap(mem, 0, 444) == 0 || val != 444)
+      return 1;
+
+    return 0;
+  }
+
+Performing C++ SOURCE FILE Test READLINE_OK succeeded with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26bcc/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26bcc.dir/build.make CMakeFiles/cmTC_26bcc.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26bcc.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w -std=c++0x -DOPENSSL_NO_FILENAMES -std=c++0x -Wall -Wextra -Werror -Wno-unused-parameter -fno-omit-frame-pointer -Wno-error=misleading-indentation -DREADLINE_OK   -o CMakeFiles/cmTC_26bcc.dir/src.cxx.o -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26bcc
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26bcc.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe    -fsigned-char -pthread -w -std=c++0x -DOPENSSL_NO_FILENAMES -std=c++0x -Wall -Wextra -Werror -Wno-unused-parameter -fno-omit-frame-pointer -Wno-error=misleading-indentation -DREADLINE_OK    -rdynamic CMakeFiles/cmTC_26bcc.dir/src.cxx.o  -o cmTC_26bcc /usr/lib/x86_64-linux-gnu/libreadline.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <stdio.h>
+      #include <readline/readline.h>
+      int main()
+      {
+        char shell_prompt[100];
+        readline(shell_prompt);
+        return 0;
+      }
+      
+Determining if the function TLS_method exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1811/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a1811.dir/build.make CMakeFiles/cmTC_a1811.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1811.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLS_method   -o CMakeFiles/cmTC_a1811.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1811
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1811.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLS_method    -rdynamic CMakeFiles/cmTC_a1811.dir/CheckFunctionExists.c.o  -o cmTC_a1811 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the TLS_method exist passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_feba7/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_feba7.dir/build.make CMakeFiles/cmTC_feba7.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feba7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_feba7.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_feba7
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feba7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_feba7.dir/CheckSymbolExists.c.o  -o cmTC_feba7 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+File /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TLS_method
+  return ((int*)(&TLS_method))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function TLSv1_2_method exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01467/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_01467.dir/build.make CMakeFiles/cmTC_01467.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01467.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_method   -o CMakeFiles/cmTC_01467.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_01467
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01467.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_2_method    -rdynamic CMakeFiles/cmTC_01467.dir/CheckFunctionExists.c.o  -o cmTC_01467 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the TLSv1_2_method exist passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55454/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_55454.dir/build.make CMakeFiles/cmTC_55454.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55454.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_55454.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘TLSv1_2_method’ is deprecated [-Wdeprecated-declarations]
+   return ((int*)(&TLSv1_2_method))[argc];
+   ^~~~~~
+In file included from /usr/include/openssl/e_os2.h:13:0,
+                 from /usr/include/openssl/ssl.h:15,
+                 from /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/openssl/ssl.h:1864:45: note: declared here
+ DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *TLSv1_2_method(void)) /* TLSv1.2 */
+                                             ^
+Linking C executable cmTC_55454
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55454.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_55454.dir/CheckSymbolExists.c.o  -o cmTC_55454 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+File /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TLSv1_2_method
+  return ((int*)(&TLSv1_2_method))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function TLSv1_1_method exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c5ce/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5c5ce.dir/build.make CMakeFiles/cmTC_5c5ce.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c5ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_1_method   -o CMakeFiles/cmTC_5c5ce.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c5ce
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c5ce.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_1_method    -rdynamic CMakeFiles/cmTC_5c5ce.dir/CheckFunctionExists.c.o  -o cmTC_5c5ce /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the TLSv1_1_method exist passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52925/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_52925.dir/build.make CMakeFiles/cmTC_52925.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52925.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_52925.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘TLSv1_1_method’ is deprecated [-Wdeprecated-declarations]
+   return ((int*)(&TLSv1_1_method))[argc];
+   ^~~~~~
+In file included from /usr/include/openssl/e_os2.h:13:0,
+                 from /usr/include/openssl/ssl.h:15,
+                 from /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/openssl/ssl.h:1858:45: note: declared here
+ DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *TLSv1_1_method(void)) /* TLSv1.1 */
+                                             ^
+Linking C executable cmTC_52925
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52925.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_52925.dir/CheckSymbolExists.c.o  -o cmTC_52925 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+File /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TLSv1_1_method
+  return ((int*)(&TLSv1_1_method))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function TLSv1_method exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1fc5/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1fc5.dir/build.make CMakeFiles/cmTC_d1fc5.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1fc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_method   -o CMakeFiles/cmTC_d1fc5.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1fc5
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1fc5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=TLSv1_method    -rdynamic CMakeFiles/cmTC_d1fc5.dir/CheckFunctionExists.c.o  -o cmTC_d1fc5 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the TLSv1_method exist passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fb4c/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0fb4c.dir/build.make CMakeFiles/cmTC_0fb4c.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fb4c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_0fb4c.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘TLSv1_method’ is deprecated [-Wdeprecated-declarations]
+   return ((int*)(&TLSv1_method))[argc];
+   ^~~~~~
+In file included from /usr/include/openssl/e_os2.h:13:0,
+                 from /usr/include/openssl/ssl.h:15,
+                 from /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/openssl/ssl.h:1852:45: note: declared here
+ DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *TLSv1_method(void)) /* TLSv1.0 */
+                                             ^
+Linking C executable cmTC_0fb4c
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fb4c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_0fb4c.dir/CheckSymbolExists.c.o  -o cmTC_0fb4c /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+File /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/openssl/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TLSv1_method
+  return ((int*)(&TLSv1_method))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function DH_compute_key_padded exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f95e7/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f95e7.dir/build.make CMakeFiles/cmTC_f95e7.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f95e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=DH_compute_key_padded   -o CMakeFiles/cmTC_f95e7.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f95e7
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f95e7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=DH_compute_key_padded    -rdynamic CMakeFiles/cmTC_f95e7.dir/CheckFunctionExists.c.o  -o cmTC_f95e7 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the DH_compute_key_padded exist passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50b9e/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_50b9e.dir/build.make CMakeFiles/cmTC_50b9e.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50b9e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_50b9e.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_50b9e
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b9e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread     -rdynamic CMakeFiles/cmTC_50b9e.dir/CheckSymbolExists.c.o  -o cmTC_50b9e /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+File /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/include/openssl/dh.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef DH_compute_key_padded
+  return ((int*)(&DH_compute_key_padded))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function curl_multi_wait exists passed with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67ddc/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_67ddc.dir/build.make CMakeFiles/cmTC_67ddc.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ddc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=curl_multi_wait   -o CMakeFiles/cmTC_67ddc.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67ddc
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ddc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=curl_multi_wait    -rdynamic CMakeFiles/cmTC_67ddc.dir/CheckFunctionExists.c.o  -o cmTC_67ddc /usr/lib/x86_64-linux-gnu/libcurl.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test CURL_PIPELINING succeeded with the following output:
+Change Dir: /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75c11/fast"
+make[3]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_75c11.dir/build.make CMakeFiles/cmTC_75c11.dir/build
+make[4]: Entering directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75c11.dir/src.c.o
+/usr/bin/cc  -I/usr/include/x86_64-linux-gnu  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCURL_PIPELINING   -o CMakeFiles/cmTC_75c11.dir/src.c.o   -c /content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.c
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.c:6:9: warning: unused variable ‘foo’ [-Wunused-variable]
+     int foo = CURLMOPT_MAX_HOST_CONNECTIONS;
+         ^~~
+/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp/src.c:3:16: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   int main(int argc, char** argv)
+                ^~~~
+Linking C executable cmTC_75c11
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75c11.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCURL_PIPELINING    -rdynamic CMakeFiles/cmTC_75c11.dir/src.c.o  -o cmTC_75c11 /usr/lib/x86_64-linux-gnu/libcurl.so 
+make[4]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/content/root_src/root_build/XROOTD-prefix/src/XROOTD-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <curl/multi.h>
+
+  int main(int argc, char** argv)
+  {
+    (void)argv;
+    int foo = CURLMOPT_MAX_HOST_CONNECTIONS;
+    return 0;
+  }
+  

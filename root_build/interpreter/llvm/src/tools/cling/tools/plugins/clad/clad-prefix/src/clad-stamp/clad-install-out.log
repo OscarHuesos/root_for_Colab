@@ -1,0 +1,17 @@
+[ 70%] Built target cladDifferentiator
+[100%] Built target cladPlugin
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/StmtClone.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/Compatibility.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/Tape.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/DiffPlanner.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/BuiltinDerivatives.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/DerivativeBuilder.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/Differentiator.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/include/clad/Differentiator/Version.h
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/lib/libcladDifferentiator.a
+-- Installing: /content/root_src/root_build/plugins/content/root_src/root_install/lib/libcladPlugin.a

@@ -1,0 +1,588 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ffb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ffb3.dir/build.make CMakeFiles/cmTC_7ffb3.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ffb3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ffb3.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7ffb3
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ffb3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7ffb3.dir/CheckSymbolExists.c.o  -o cmTC_7ffb3 
+CMakeFiles/cmTC_7ffb3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ffb3.dir/build.make:86: recipe for target 'cmTC_7ffb3' failed
+make[1]: *** [cmTC_7ffb3] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7ffb3/fast' failed
+make: *** [cmTC_7ffb3/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f91b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f91b.dir/build.make CMakeFiles/cmTC_7f91b.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f91b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7f91b.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f91b
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f91b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7f91b.dir/CheckFunctionExists.c.o  -o cmTC_7f91b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7f91b.dir/build.make:86: recipe for target 'cmTC_7f91b' failed
+make[1]: *** [cmTC_7f91b] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7f91b/fast' failed
+make: *** [cmTC_7f91b/fast] Error 2
+
+
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b53f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b53f.dir/build.make CMakeFiles/cmTC_2b53f.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b53f.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_2b53f.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_2b53f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2b53f.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2b53f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2b53f/fast' failed
+make: *** [cmTC_2b53f/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23e67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23e67.dir/build.make CMakeFiles/cmTC_23e67.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23e67.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_23e67.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_23e67.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_23e67.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_23e67.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_23e67/fast' failed
+make: *** [cmTC_23e67/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efa18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efa18.dir/build.make CMakeFiles/cmTC_efa18.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efa18.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_efa18.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_efa18.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_efa18.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_efa18.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_efa18/fast' failed
+make: *** [cmTC_efa18/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c77de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c77de.dir/build.make CMakeFiles/cmTC_c77de.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c77de.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_c77de.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: valgrind/valgrind.h: No such file or directory
+ #include <valgrind/valgrind.h>
+          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c77de.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c77de.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c77de.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c77de/fast' failed
+make: *** [cmTC_c77de/fast] Error 2
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_738f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_738f0.dir/build.make CMakeFiles/cmTC_738f0.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_738f0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_738f0.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach/mach.h: No such file or directory
+ #include <mach/mach.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_738f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_738f0.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_738f0.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_738f0/fast' failed
+make: *** [cmTC_738f0/fast] Error 2
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bebe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bebe.dir/build.make CMakeFiles/cmTC_7bebe.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bebe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_7bebe.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: histedit.h: No such file or directory
+ #include <histedit.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7bebe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7bebe.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7bebe.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7bebe/fast' failed
+make: *** [cmTC_7bebe/fast] Error 2
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_424f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_424f7.dir/build.make CMakeFiles/cmTC_424f7.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_424f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_424f7.dir/CheckIncludeFile.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: CrashReporterClient.h: No such file or directory
+ #include <CrashReporterClient.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_424f7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_424f7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_424f7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_424f7/fast' failed
+make: *** [cmTC_424f7/fast] Error 2
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0eefe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0eefe.dir/build.make CMakeFiles/cmTC_0eefe.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0eefe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_0eefe.dir/CheckFunctionExists.c.o   -c /usr/local/lib/python2.7/dist-packages/cmake/data/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0eefe
+/usr/local/lib/python2.7/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eefe.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-implicit-fallthrough -pipe -Wall -W -pthread -DCHECK_FUNCTION_EXISTS=xar_open   -rdynamic  CMakeFiles/cmTC_0eefe.dir/CheckFunctionExists.c.o  -o cmTC_0eefe -lxar -lm 
+/usr/bin/ld: cannot find -lxar
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0eefe.dir/build.make:86: recipe for target 'cmTC_0eefe' failed
+make[1]: *** [cmTC_0eefe] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0eefe/fast' failed
+make: *** [cmTC_0eefe/fast] Error 2
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b85e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b85e.dir/build.make CMakeFiles/cmTC_0b85e.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b85e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_0b85e.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'arc4random' undeclared (first use in this function); did you mean 'srandom'?
+   return ((int*)(&arc4random))[argc];
+                   ^~~~~~~~~~
+                   srandom
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+CMakeFiles/cmTC_0b85e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0b85e.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0b85e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0b85e/fast' failed
+make: *** [cmTC_0b85e/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallctl exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03290/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03290.dir/build.make CMakeFiles/cmTC_03290.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03290.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_03290.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc_np.h: No such file or directory
+ #include <malloc_np.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_03290.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_03290.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_03290.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_03290/fast' failed
+make: *** [cmTC_03290/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78e32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78e32.dir/build.make CMakeFiles/cmTC_78e32.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78e32.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_78e32.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_78e32.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_78e32.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_78e32.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_78e32/fast' failed
+make: *** [cmTC_78e32/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ceb17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ceb17.dir/build.make CMakeFiles/cmTC_ceb17.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ceb17.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_ceb17.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'strerror_s' undeclared (first use in this function); did you mean 'strerror_l'?
+   return ((int*)(&strerror_s))[argc];
+                   ^~~~~~~~~~
+                   strerror_l
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+CMakeFiles/cmTC_ceb17.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ceb17.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ceb17.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ceb17/fast' failed
+make: *** [cmTC_ceb17/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dladdr exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a45d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a45d1.dir/build.make CMakeFiles/cmTC_a45d1.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a45d1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_a45d1.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'dladdr' undeclared (first use in this function)
+   return ((int*)(&dladdr))[argc];
+                   ^~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+CMakeFiles/cmTC_a45d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a45d1.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a45d1.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a45d1/fast' failed
+make: *** [cmTC_a45d1/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cfb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cfb9.dir/build.make CMakeFiles/cmTC_4cfb9.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4cfb9.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG   -Wgnu-zero-variadic-macro-arguments -std=c++11 -o CMakeFiles/cmTC_4cfb9.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wgnu-zero-variadic-macro-arguments'; did you mean '-Wno-variadic-macros'?
+CMakeFiles/cmTC_4cfb9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4cfb9.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4cfb9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4cfb9/fast' failed
+make: *** [cmTC_4cfb9/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a266/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a266.dir/build.make CMakeFiles/cmTC_4a266.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a266.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG   -Werror -Wnested-anon-types -std=c++11 -o CMakeFiles/cmTC_4a266.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnested-anon-types'; did you mean '-Wnested-externs'?
+CMakeFiles/cmTC_4a266.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4a266.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4a266.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4a266/fast' failed
+make: *** [cmTC_4a266/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if the m exist failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d725/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d725.dir/build.make CMakeFiles/cmTC_8d725.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d725.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-implicit-fallthrough -pipe -Wall -W -pthread    -o CMakeFiles/cmTC_8d725.dir/CheckSymbolExists.c.o   -c /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: __sqrt_finite: No such file or directory
+ #include <__sqrt_finite>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_8d725.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8d725.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8d725.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8d725/fast' failed
+make: *** [cmTC_8d725/fast] Error 2
+
+File /content/root_src/root_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <__sqrt_finite>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef m
+  return ((int*)(&m))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test found_stdstringview failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fed4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fed4.dir/build.make CMakeFiles/cmTC_0fed4.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fed4.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -Dfound_stdstringview   -std=c++11 -o CMakeFiles/cmTC_0fed4.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:52: error: 'string_view' is not a member of 'std'
+   int main() { char arr[3] = {'B', 'a', 'r'}; std::string_view strv(arr, sizeof(arr)); return 0;}
+                                                    ^~~~~~~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:21: warning: unused variable 'arr' [-Wunused-variable]
+   int main() { char arr[3] = {'B', 'a', 'r'}; std::string_view strv(arr, sizeof(arr)); return 0;}
+                     ^~~
+CMakeFiles/cmTC_0fed4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0fed4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0fed4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0fed4/fast' failed
+make: *** [cmTC_0fed4/fast] Error 2
+
+Source file was:
+#include <string_view>
+  int main() { char arr[3] = {'B', 'a', 'r'}; std::string_view strv(arr, sizeof(arr)); return 0;}
+Performing C++ SOURCE FILE Test found_stdexpstringview failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96ac7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96ac7.dir/build.make CMakeFiles/cmTC_96ac7.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96ac7.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -Dfound_stdexpstringview   -std=c++11 -o CMakeFiles/cmTC_96ac7.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:53: error: 'std::experimental' has not been declared
+    int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+                                                     ^~~~~~~~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:22: warning: unused variable 'arr' [-Wunused-variable]
+    int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+                      ^~~
+CMakeFiles/cmTC_96ac7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_96ac7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_96ac7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_96ac7/fast' failed
+make: *** [cmTC_96ac7/fast] Error 2
+
+Source file was:
+#include <experimental/string_view>
+   int main() { char arr[3] = {'B', 'a', 'r'}; std::experimental::string_view strv(arr, sizeof(arr)); return 0;}
+Performing C++ SOURCE FILE Test found_stdapply failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f6ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f6ce.dir/build.make CMakeFiles/cmTC_1f6ce.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f6ce.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -Dfound_stdapply   -std=c++11 -o CMakeFiles/cmTC_1f6ce.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:19: error: 'apply' is not a member of 'std'
+ int main() { std::apply([](int, int){}, std::make_tuple(1,2)); return 0;}
+                   ^~~~~
+CMakeFiles/cmTC_1f6ce.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1f6ce.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1f6ce.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1f6ce/fast' failed
+make: *** [cmTC_1f6ce/fast] Error 2
+
+Source file was:
+#include <tuple>
+int main() { std::apply([](int, int){}, std::make_tuple(1,2)); return 0;}
+Performing C++ SOURCE FILE Test found_stdinvoke failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40569/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40569.dir/build.make CMakeFiles/cmTC_40569.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40569.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -Dfound_stdinvoke   -std=c++11 -o CMakeFiles/cmTC_40569.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:26: error: 'invoke' is not a member of 'std'
+ int main() { return std::invoke([](int i){return i;}, 0); }
+                          ^~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:2:26: note: suggested alternative: '__invoke'
+ int main() { return std::invoke([](int i){return i;}, 0); }
+                          ^~~~~~
+                          __invoke
+CMakeFiles/cmTC_40569.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_40569.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_40569.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_40569/fast' failed
+make: *** [cmTC_40569/fast] Error 2
+
+Source file was:
+#include <functional>
+int main() { return std::invoke([](int i){return i;}, 0); }
+Performing C++ SOURCE FILE Test found_stdindexsequence failed with the following output:
+Change Dir: /content/root_src/root_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_142c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_142c7.dir/build.make CMakeFiles/cmTC_142c7.dir/build
+make[1]: Entering directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_142c7.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -Wno-implicit-fallthrough -Wno-noexcept-type -pipe  -Wshadow -Wall -W -Woverloaded-virtual -fsigned-char -pthread -Dfound_stdindexsequence   -std=c++11 -o CMakeFiles/cmTC_142c7.dir/src.cxx.o -c /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:4:35: error: 'integer_sequence' is not a member of 'std'
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                                   ^~~~~~~~~~~~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:4:35: error: 'integer_sequence' is not a member of 'std'
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:4:72: error: wrong number of template arguments (4, should be 2)
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                                                                        ^
+In file included from /usr/include/c++/7/bits/move.h:54:0,
+                 from /usr/include/c++/7/bits/stl_pair.h:59,
+                 from /usr/include/c++/7/utility:70,
+                 from /content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/include/c++/7/type_traits:994:12: note: provided for 'template<class, class> struct std::is_same'
+     struct is_same;
+            ^~~~~~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:4:75: error: expected string-literal before 'std'
+   static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+                                                                           ^~~
+/content/root_src/root_build/CMakeFiles/CMakeTmp/src.cxx:4:75: error: expected ')' before 'std'
+CMakeFiles/cmTC_142c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_142c7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_142c7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/content/root_src/root_build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_142c7/fast' failed
+make: *** [cmTC_142c7/fast] Error 2
+
+Source file was:
+#include <utility>
+#include <type_traits>
+int main() {
+  static_assert(std::is_same<std::integer_sequence<std::size_t, 0, 1, 2>, std::make_index_sequence<3>>::value, "");
+  return 0;
+}

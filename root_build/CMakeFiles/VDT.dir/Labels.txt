@@ -1,0 +1,14 @@
+# Target labels
+ VDT
+# Source files and their labels
+/content/root_src/root_build/CMakeFiles/VDT
+/content/root_src/root_build/CMakeFiles/VDT.rule
+/content/root_src/root_build/CMakeFiles/VDT-complete.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-install.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-mkdir.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-download.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-update.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-patch.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-configure.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-build.rule
+/content/root_src/root_build/VDT-prefix/src/VDT-stamp/VDT-copy2externals.rule

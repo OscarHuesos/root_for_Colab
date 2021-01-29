@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/lzma/inc/ZipLZMA.h
+
+/content/root_src/core/lzma/src/ZipLZMA.c
+ZipLZMA.h
+/content/root_src/core/lzma/src/ZipLZMA.h
+lzma.h
+/content/root_src/core/lzma/src/lzma.h
+stdio.h
+-
+

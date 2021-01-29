@@ -1,0 +1,1 @@
+cmd='./configure;--prefix;<INSTALL_DIR>;--libdir=<INSTALL_DIR>/lib;--with-ttf;--with-afterbase=no;--without-svg;--disable-glx;--with-builtin-ungif;--with-jpeg;--with-jpeg-includes=/usr/include;--with-png;--with-png-includes=/usr/include;--with-tiff-includes=/usr/include/x86_64-linux-gnu;CC=/usr/bin/cc;CFLAGS='
